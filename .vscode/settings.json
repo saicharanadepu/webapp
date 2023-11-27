@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/28b84922-1ca5-431f-bde9-8d9bc98d3b8f/resourceGroups/sasta_group/providers/Microsoft.Web/sites/sasta",
+    "appService.deploySubpath": "."
+}

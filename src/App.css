@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(3, 36, 46);
+  color: white;
+  text-align: left;
+  text-size-adjust: 50px;
+}
+
+.header {
+  position: 0px;
+  top: auto;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(20, 121, 154);
+  text-align: left;
+  color: rgb(250, 246, 246);
+  text-size-adjust: 20px;
+}
+
+.nav-item {
+  background-color: rgb(66, 55, 119);
+  min-height: auto;
+  min-width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px);
+  color: rgb(1, 8, 8);
+  text-size-adjust: 20px;
+  text-decoration-style: solid;
+  padding-bottom: 0 0px;
+  margin: 0 0px;
+  border-bottom: 5px solid #eee;
+}
+.page-header {
+  background-color: rgb(177, 12, 12);
+  min-height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px);
+  color: rgb(5, 1, 1);
+  padding-bottom: 0 5px;
+  margin: 0 0px;
+  border-bottom: 5px solid #eee;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 10%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.Btn-style {
+  width: 150px;
+  height: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 2dvb;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: color(from color srgb r g b);
+  text-align: center;
+  background-position-x: center;
+}
+
+li > a {
+  text-decoration: none;
+  text-align: center;
+}
+
+li > a:hover {
+  background-color: blanchedalmond;
+  transition: all;
+}
